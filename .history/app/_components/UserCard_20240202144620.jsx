@@ -24,7 +24,7 @@ const UserCard = () => {
           is for Mackeup and Skin Care.
         </p>
 
-        <div className="grid grid-cols-3 gap-2   justify-between w-[100%] mx-auto my-2  items-center">
+        <div className="grid grid-cols-3 gap-2   justify-between w-[100%] mx-auto my-2 outline-dashed items-center">
           <div className="bg-[#FFF5E9] w-30 lg:w-[110px] h-[60px] lg:h-[59px] rounded-xl flex flex-row gap-1 lg:gap-2 ">
             <Image
               src={userTick}

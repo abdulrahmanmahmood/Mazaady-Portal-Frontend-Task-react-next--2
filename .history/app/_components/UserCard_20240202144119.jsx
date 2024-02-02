@@ -24,7 +24,7 @@ const UserCard = () => {
           is for Mackeup and Skin Care.
         </p>
 
-        <div className="grid grid-cols-3 gap-2   justify-between w-[100%] mx-auto my-2  items-center">
+        <div className="grid grid-cols-3 gap-2   justify-between w-[100%] mx-auto my-2 outline-dashed items-center">
           <div className="bg-[#FFF5E9] w-30 lg:w-[110px] h-[60px] lg:h-[59px] rounded-xl flex flex-row gap-1 lg:gap-2 ">
             <Image
               src={userTick}
@@ -35,7 +35,7 @@ const UserCard = () => {
             />
             <div className="flex flex-col ">
               <h3>5</h3>
-              <p className="text-[#FF951D] text-sm">Following</p>
+              <p className="text-[#FF951D] sm:text-sm">Following</p>
             </div>
           </div>
           <div className="bg-[#FFF5E9] w-30 lg:w-[110px] h-[60px] lg:h-[59px] rounded-xl flex flex-row gap-2">
@@ -48,7 +48,7 @@ const UserCard = () => {
             />
             <div className="flex flex-col">
               <h3>20</h3>
-              <p className="text-[#FF951D] text-sm">Followers</p>
+              <p className="text-[#FF951D]">Followers</p>
             </div>
           </div>
           <div className="bg-[#FFF5E9] w-30 lg:w-[110px] h-[60px] lg:h-[59px] rounded-xl flex flex-row gap-3">
@@ -64,7 +64,7 @@ const UserCard = () => {
                 4.2
                 <span className="text-gray-500 text-xs m-1">(15)</span>
               </h3>
-              <p className="text-[#FF951D] text-sm">Rate</p>
+              <p className="text-[#FF951D]">Rate</p>
             </div>
           </div>
         </div>
