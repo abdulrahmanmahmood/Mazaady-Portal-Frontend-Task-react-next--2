@@ -43,7 +43,7 @@ const ProductCard = ({ product }) => {
                 Lot Starts in
               </div>
               <div className="flex space-x-2 lg:grid lg:grid-cols-3 text-[#FF951D] justify-between ">
-                <button className="bg-[#FFF5E9]  h-15 p-1 rounded-2xl lg:rounded-3xl items-center text-nowrap">
+                <button className="bg-[#FFF5E9]  h-15 p-1 rounded-2xl lg:rounded-3xl items-center ">
                   2 <span className="text-xs">Days</span>
                 </button>
                 <button className="bg-[#FFF5E9]  h-15 p-1 rounded-2xl lg:rounded-3xl items-center text-nowrap">
